@@ -1,0 +1,23 @@
+Reporte
+
+14/04/2025
+
+	*Se realizo la implementacion de la mecanica de "Cordura".
+
+	*Se implemento el boto de "pausa del juego" y "reanudar juego".
+
+	*Se implemento la funcion que cuando esta en pausa el juego, la mecanica de "Cordura" se detiene.
+
+	*Se implemento la funcion cuando se reanuda el juego la "Cordura continua su conteo sin reiniciarse.
+
+	*Se implemento un boton que agrega tiempo a "Cordura" (en caso que el jugador recupere cordura).
+
+	*Al cambiar de escenas se mantiene el contador de "Cordura".
+
+	*Al llegar a la pantalla de menu desaparece la mecanica "Cordura y reaparece al comenzar el juego.
+
+	*Se implemento 3 diferentes niveles de cordura.
+
+	*Al llegar a los 3 diferentes niveles de cordura aparece una imagen diferente.
+
+	*Se implemento la regla que por mas que se reste al contador no bajara mas de 0.
