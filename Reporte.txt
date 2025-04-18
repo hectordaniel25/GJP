@@ -21,3 +21,51 @@ Reporte
 	*Al llegar a los 3 diferentes niveles de cordura aparece una imagen diferente.
 
 	*Se implemento la regla que por mas que se reste al contador no bajara mas de 0.
+
+15/04/2025
+
+	*Se implemento la mecanica de rotar un objeto por medio de un boton.
+
+	*Se implemento que la rotacion del objeto sea presionando sobre el mismo objeto.
+
+	*Se implementaron cuatro objetos que tienen su propia rotacion.
+
+	*Se implemento la regla de combinacion para obtener el fragmento de espejo.
+
+	*Se implemento la combinacion para pasar el nivel.
+
+	*Se implemento la regla que si no se obteniene ningun codigo no podra pasar de nivel.
+
+	*Se implemento que al introducir la combinacion de la llave aparesca un objeto.
+
+18/04/2025
+
+	*Se implemento el menu de pausa.
+
+	*Se implemento el grado de cordura con una variablle diferente al tiempo.
+
+	*Se agregaron las escenas con sus imagenes correspondientes a lo que devera de contener cada escena.
+
+	*Se agrego inventario en el menu de pausa.
+
+	*Se agregaron los fragmentos de espejo.
+
+	*Se le agrego la funcion de desaparecer al espejo al ser obtenido.
+
+	*Se agrego la funcion en el inventario que al tomar un espejo se vea en el inventario.
+
+	*Se agrego que se coloque en una posicion especifica el espejo dependiendo del nivel que se encuentre.
+
+	*Se realizo el acomodo del menu de inicio del juego deacuerdo al diseño proporcionado.
+
+	*Se agrego la barra indicadora del nivel de cordura.
+
+	*Se quito la barra indicadora del nivel de cordura.
+
+	*Se implemento que al iniciar el juego se escche la musica de fondo.
+
+	*Se implemento la funcion de al estar en pausa la musica deje de escucharse.
+
+	*Se implemento la funcion que al salir del menu pausa se reanude la musica en donde se quedo.
+
+	*Se implemento que al terminar el juego y volver  iniciar la musica comienze desde el principio.

@@ -12,7 +12,7 @@ public class Sumar_Tiempo : MonoBehaviour
 
         if (cordura != null)
         {
-            cordura.Suma(5);/*restara 5 segungus cada que se active*/
+            cordura.Suma(0.05f);/*restara 5 segungus cada que se active*/
         }
     }
 
