@@ -23,6 +23,7 @@ public class Espejos_Recolectados : MonoBehaviour
     //Al codigo Recolectar_Espejos la llamaremos Num
     public Recolectar_Espejos Num;
 
+
     // Start is called before the first frame update
     void Start()
     {

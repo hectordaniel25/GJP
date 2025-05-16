@@ -14,7 +14,7 @@ public class Nivel_Cordura_Barra : MonoBehaviour
         cordura = FindObjectOfType<Cordura>();
         if( cordura != null)
         {
-            BarraCordura.fillAmount = cordura.GradoCordura;
+            //BarraCordura.fillAmount = cordura.GradoCordura;
         }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Cordura : MonoBehaviour
 {
@@ -45,6 +46,8 @@ public class Cordura : MonoBehaviour
         segundos += Time.deltaTime;/*Forma nativa para poder generar un contador*/
         GradoCordura += Time.deltaTime/DivisorCordura;
 
+        
+
         if (segundos >= 59) /*Cuando el contador llegue a 59 regresara a 0 y minutos agregara +1*/
         {
             segundos = 0;
@@ -84,6 +87,8 @@ public class Cordura : MonoBehaviour
             GradoCordura = 0;
         }
 
+        
+
         ActualizarContador();
     }
 
@@ -111,6 +116,11 @@ public class Cordura : MonoBehaviour
         {
             ContadorTexto.text = minutos.ToString() + ":" + segundos.ToString("f0");
         }
+    }
+
+    public void Resta(float cantidad) //Realiza la suma de cordura al jugador
+    {
+        GradoCordura += cantidad;
     }
 
 }

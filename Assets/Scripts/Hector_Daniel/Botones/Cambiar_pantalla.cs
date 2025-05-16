@@ -7,8 +7,24 @@ using UnityEngine.SceneManagement;
 
 public class Cambiar_pantalla : MonoBehaviour
 {
-    public void CambiardeNivel(string nombre)/*Se da la orden a que pantalla se quiere cambiar*/
+    public Animator Transiciones;
+    private void Start()
     {
+        Transiciones = GetComponentInChildren<Animator>();
+    }
+
+    public void CambiardeNivel(string Escena)/*Se da la orden a que pantalla se quiere cambiar*/
+    {
+        StartCoroutine(RetrasarEjecucion(Escena));
+        
+    }
+
+    public IEnumerator RetrasarEjecucion(string nombre)
+    {
+
+        Transiciones.SetTrigger("IniciarTrancision");
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nombre);/*se ejecuta el cambio de pantalla*/
+        
     }
 }
